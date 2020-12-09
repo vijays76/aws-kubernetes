@@ -20,5 +20,5 @@ script:
 - docker push "$docker_registry_name"/appserver:latest
 - terraform init
 - terraform apply -auto-approve
-- sleep 300
+- sleep 60
 - terraform destroy -auto-approve 
